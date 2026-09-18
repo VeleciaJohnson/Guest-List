@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 80%;
+  margin: 40px auto;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.guest-list {
+  padding: 0;
+  list-style: none;
+}
+
+.guest-row {
+  margin: 10px 0;
+}
+
+.guest-button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: white;
+  text-align: left;
+}
+
+.guest-button:hover {
+  background-color: #eee;
+}
+
+.error {
+  color: red;
+}
